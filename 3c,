@@ -1,0 +1,10 @@
+3c
+
+
+namp -Sn 192.168.0.0/24
+
+3b
+
+from scapy.all import *
+result, unanswered=traceroute(["www.google.com","www.example.com"])
+result.show()
